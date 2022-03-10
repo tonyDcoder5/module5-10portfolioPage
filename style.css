@@ -38,6 +38,19 @@
   padding: 1px; 
 }
 
+.nav-btn
+{
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: bold;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #fbfbff;
+  border-color: #4cae4c;
+}
 
 main
 {
