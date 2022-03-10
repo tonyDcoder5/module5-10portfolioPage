@@ -1,40 +1,38 @@
 /** STRUCTURAL ELEMENTS/CLASSES */ 
 .outer-container
 {
-  background: #;
-  margin: auto;
+  background: #757575;
+  margin: 1px;
   height: auto;
-  padding: 1px; 
-  text-align: center;
+  padding: 10px; 
 }
 
 .border-container
 {
-  background: #;
-  margin: auto;
+  background: #0b4f6c;
   height: auto;
- padding: 1px; 
+  padding: 10px; 
 }
 
 .pad-container
 {  
-  background: #;
-  margin: auto;
+  background: #20bf55;
+  margin: 1px;
   height: auto;
-  padding: 1px; 
+  padding: 5px; 
 }
 
 .content-container
 {
-  background: #;
-  margin: auto;
+  background: #01baef;
+  margin: 5px;
   height: auto;
-  padding: 1px; 
+  padding: 5px; 
 }
 
 .sub-content
 {
-  background: #;
+  background: #fbfbff;
   margin: auto;
   height: auto;
   padding: 1px; 
@@ -42,107 +40,128 @@
 
 
 main
-{}
+{
+  text-align: center;
+}
 
 header
 {
-  margin: ;
-  padding: ;
-  height: ;
+  margin: 5px;
+  padding: 1px;
+  height: auto;
 }
 
 body
 {
-  margin: ;
-  padding: ;
-  height: ;
+  margin: 5px;
+  padding: 1px;
+  height: auto;
 }
 
 article
 {
-  margin: ;
-  padding: ;
-  height: ;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+section
+{
+  margin: 5px;
+  padding: 5px;
+  height: auto;
 }
 
 footer
 {
-  margin: ;
-  padding: ;
-  height: ;
+  color: #fbfbff;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
 }
 
 div
 { 
-  margin: ;
-  padding: ;
-  height: ;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
 }
 
 hr
 {
-
+  
 }
 
 
 /** GENERAL ELEMENTS */ 
 h1
 {
-  color: ;
-  font-family: "";
-  font-size: 48px;
+  color: #01baef;
+  font-family: arial;
+  font-size: 42px;
+}
+
+nav
+{
+  margin: 1px;
+  padding: 1px;
+  height: auto;
 }
 
 h2
 {
-  color: ;
-  font-family: "";
-  font-size: 36px;
+  color: #0b4f6c;
+  font-family: arial;
+  font-size: 30px;
 }
 
 h3
 {
-  color: ;
-  font-family: "";
+  color: #20bf55;
+  font-family: arial;
   font-size: 24px;
 }
 
 p
 {
-  color: ;
-  font-family: "";
-  font-size: 18px;
+  color: black;
+  font-family: arial;
+  font-size: 16px;
+  margin: 1px;
+  padding: 10px;
 }
 
 a
 {
-  color: ;
-  font-family: "";
-  font-size: 18px;
+  font-family: arial;
+  font-size: 16px;
 }
 
-  a:link { color: ;}
-  a:visited { color: ;}
-  a:hover { color: ;}
-  a:active { color: ;}
+  a:link { color: #20bf55;}
+  a:visited { color: #01baef;}
+  a:hover { color: #0b4f6c;}
+  a:active { color: #fbfbff;}
 
 ul
 {
-  color: ;
-  font-family: "";
-  font-size: 24px;
+  font-family: arial;
+  font-size: 18px;
+  list-align: center;
 }
 
 ol
 {
-  color: ;
-  font-family: "";
-  font-size: 24px;
+  font-family: arial;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
 }
 
 li
 {
-  color: ;
-  font-family: "";
+  font-family: arial;
   font-size: 16px;
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
 }
