@@ -1,0 +1,148 @@
+/** STRUCTURAL ELEMENTS/CLASSES */ 
+.outer-container
+{
+  background: #;
+  margin: auto;
+  height: auto;
+  padding: 1px; 
+  text-align: center;
+}
+
+.border-container
+{
+  background: #;
+  margin: auto;
+  height: auto;
+ padding: 1px; 
+}
+
+.pad-container
+{  
+  background: #;
+  margin: auto;
+  height: auto;
+  padding: 1px; 
+}
+
+.content-container
+{
+  background: #;
+  margin: auto;
+  height: auto;
+  padding: 1px; 
+}
+
+.sub-content
+{
+  background: #;
+  margin: auto;
+  height: auto;
+  padding: 1px; 
+}
+
+
+main
+{}
+
+header
+{
+  margin: ;
+  padding: ;
+  height: ;
+}
+
+body
+{
+  margin: ;
+  padding: ;
+  height: ;
+}
+
+article
+{
+  margin: ;
+  padding: ;
+  height: ;
+}
+
+footer
+{
+  margin: ;
+  padding: ;
+  height: ;
+}
+
+div
+{ 
+  margin: ;
+  padding: ;
+  height: ;
+}
+
+hr
+{
+
+}
+
+
+/** GENERAL ELEMENTS */ 
+h1
+{
+  color: ;
+  font-family: "";
+  font-size: 48px;
+}
+
+h2
+{
+  color: ;
+  font-family: "";
+  font-size: 36px;
+}
+
+h3
+{
+  color: ;
+  font-family: "";
+  font-size: 24px;
+}
+
+p
+{
+  color: ;
+  font-family: "";
+  font-size: 18px;
+}
+
+a
+{
+  color: ;
+  font-family: "";
+  font-size: 18px;
+}
+
+  a:link { color: ;}
+  a:visited { color: ;}
+  a:hover { color: ;}
+  a:active { color: ;}
+
+ul
+{
+  color: ;
+  font-family: "";
+  font-size: 24px;
+}
+
+ol
+{
+  color: ;
+  font-family: "";
+  font-size: 24px;
+}
+
+li
+{
+  color: ;
+  font-family: "";
+  font-size: 16px;
+}
