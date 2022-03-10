@@ -5,35 +5,46 @@
     <!-- stores metadata needed for semantic code, page dimensions, & .css link -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>TonyDCoder Portfolio Page - Thinkful Prep Module 5-10</title>
-    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>TonyDCoder Portfolio Page - Thinkful Prep         Module 5-10</title>
+    <link rel="stylesheet" type="text/css"           
+href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link href="style.css" rel="stylesheet"      
+      type="text/css" />
   </head>
   
   
   <!-- Begin main division between margin & border -->
-    <div class = "outer-container">
+  <div class = "outer-container">
     <main>
-     
-  
   <!-- ADD BORDER *MTN OUTLINES* -->    
     <div class = "border-container">
-  
-  <!-- ADD PADDING -->
-    <div class = "pad-container">
       
       <header>
-        <h1><a href = "#">
+        <h1>
           Tony D. Coder Portfolio Page
-        </a></h1>
+        </h1>
+
+        <nav>
+          <a href = "#"> 
+            Home </a>
+          <a href = "#intro"> 
+            Intro </a>
+          <a href = "#about"> 
+            About Me </a>
+          <a href = "#contact"> 
+            Contact </a>
+        </nav>
       </header>
+
+        <!-- ADD PADDING -->
+    <div class = "pad-container">
       
   <!-- CONTENT CONTAINER BEGINS -->      
     <div class = "content-container">
       
       <body>
         <!-- Use a pseudo-class to highlight sections within content container-->
-        <article class = "sub-content">
+        <article class = "sub-content" id = "intro">
         <h2>
          Introduction 
         </h2>
@@ -46,14 +57,14 @@
 
         <!-- Use a nice hiking picture-->
           
-        <img src = "bio-pic.jpg" width: auto>
+       <!-- <img src = "images/bio-pic.JPG"> -->
         </article>
         
         <hr>
        
         <!-- Use a pseudo-class to highlight sections within content container-->
         
-        <article class = "sub-content">
+        <section class = "sub-content" id = "about">
         <h2>
           About Me
         </h2>
@@ -80,30 +91,29 @@
                 <li><i> Demon Slayer </i></li> 
             </ol></li>
         </ul>
-        </article>
+        </section>
         <hr>
 
         <!-- Use a pseudo-class to highlight sections within content container-->
 
-        <article class = "sub-content">
+        <section class = "sub-content" id ="contact">
         <h2>
           Contact
         </h2>
         
         <!-- Use a anchor element with reference and target to allow links to open on new tab -->
 
-        <h3>Connect With me on <a href = "https://www.linkedin.com/in/tonydcoder/" target = "_blank"> LinkedIn </a></h3>
-        <h3>Check me out on <a href = "https://github.com/tonyDcoder5" target = "_blank"> GitHub </a></h3>
-        <h3>Send me a <a href = "mailTo: tonyaflex5@gmail.com" target = "_blank"> Message!</a></h3>
-        </article>
+        <p>Connect With me on <a href = "https://www.linkedin.com/in/tonydcoder/" target = "_blank"> LinkedIn </a></p>
+        <p>Check me out on <a href = "https://github.com/tonyDcoder5" target = "_blank"> GitHub </a></p>
+        <p>Send me a <a href = "mailTo: tonyaflex5@gmail.com" target = "_blank"> Message!</a></p>
+        </section>
       </body>
       </div>
       </div>
       </div>
-    </main>
-  </div>
   <footer>
     <h3><i>"Life is not about material or social gain, but about the memories kept and left behind"</i></h3>
   </footer>
-  
+  </div>
+</main>
 </html>
