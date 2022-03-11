@@ -1,7 +1,7 @@
 /** STRUCTURAL ELEMENTS/CLASSES */ 
 .outer-container
 {
-  background: #757575;
+  background: #7a8b99;
   margin: 1px;
   height: auto;
   padding: 10px; 
@@ -16,7 +16,7 @@
 
 .pad-container
 {  
-  background: #20bf55;
+  background: #355834;
   margin: 1px;
   height: auto;
   padding: 5px; 
@@ -24,18 +24,18 @@
 
 .content-container
 {
-  background: #01baef;
-  margin: 5px;
+  background: #7a8b99;
+  margin: 10px;
   height: auto;
-  padding: 5px; 
+  padding: 15px; 
 }
 
 .sub-content
 {
   background: #fbfbff;
-  margin: auto;
+  margin: 5px;
   height: auto;
-  padding: 1px; 
+  padding: 5px; 
 }
 
 .nav-btn
@@ -48,7 +48,7 @@
   margin: 10px;
   padding: 6px 12px;
   border-radius: 6px;
-  background-color: #fbfbff;
+  background-color: #7a8b99;
   border-color: #4cae4c;
 }
 
@@ -109,7 +109,7 @@ hr
 /** GENERAL ELEMENTS */ 
 h1
 {
-  color: #01baef;
+  color: #7a8b99;
   font-family: arial;
   font-size: 42px;
 }
@@ -123,14 +123,14 @@ nav
 
 h2
 {
-  color: #0b4f6c;
+  color: #355834;
   font-family: arial;
   font-size: 30px;
 }
 
 h3
 {
-  color: #20bf55;
+  color: #0b4f6c;
   font-family: arial;
   font-size: 24px;
 }
@@ -142,6 +142,7 @@ p
   font-size: 16px;
   margin: 1px;
   padding: 10px;
+  text-align: center;
 }
 
 a
@@ -150,10 +151,10 @@ a
   font-size: 16px;
 }
 
-  a:link { color: #20bf55;}
-  a:visited { color: #01baef;}
-  a:hover { color: #0b4f6c;}
-  a:active { color: #fbfbff;}
+  a:link { color: #08090a;}
+  a:visited { color: #963484;}
+  a:hover { color: #5dfdcb;}
+  a:active { color: #7cc6fe;}
 
 ul
 {
